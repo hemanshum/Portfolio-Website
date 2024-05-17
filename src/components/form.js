@@ -13,7 +13,7 @@ export default function Form() {
           type='name'
           id='name'
           placeholder='Name'
-          className='bg-[#32334C]'
+          className='dark:bg-[#32334C]'
         />
         <User className='absolute right-6' size={20} />
       </div>
@@ -22,7 +22,7 @@ export default function Form() {
           type='email'
           id='email'
           placeholder='Email'
-          className='bg-[#32334C]'
+          className='dark:bg-[#32334C]'
         />
         <MailIcon className='absolute right-6' size={20} />
       </div>
@@ -31,7 +31,7 @@ export default function Form() {
           type='name'
           id='name'
           placeholder='Type Your Message Here'
-          className='bg-[#32334C]'
+          className='dark:bg-[#32334C]'
         />
         <MessageSquare className='absolute top-6 right-6' size={20} />
       </div>
