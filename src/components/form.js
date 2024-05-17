@@ -13,13 +13,17 @@ export default function Form() {
         <User className='absolute right-6' size={20} />
       </div>
       <div className='relative flex items-center'>
-        <Input type='name' id='name' placeholder='Name' />
-        <User className='absolute right-6' size={20} />
+        <Input type='email' id='email' placeholder='Email' />
+        <MailIcon className='absolute right-6' size={20} />
       </div>
       <div className='relative flex items-center'>
-        <Input type='name' id='name' placeholder='Name' />
-        <User className='absolute right-6' size={20} />
+        <Textarea type='name' id='name' placeholder='Type Your Message Here' />
+        <MessageSquare className='absolute top-6 right-6' size={20} />
       </div>
+      <Button className='flex items-center gap-x-2 max-w-[166px]'>
+        Let's Talk
+        <ArrowRightIcon size={20} />
+      </Button>
     </form>
   );
 }
