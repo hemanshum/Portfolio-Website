@@ -21,7 +21,7 @@ export default function Form() {
         <MessageSquare className='absolute top-6 right-6' size={20} />
       </div>
       <Button className='flex items-center gap-x-2 max-w-[166px]'>
-        Let's Talk
+        Let&apos;s Talk
         <ArrowRightIcon size={20} />
       </Button>
     </form>

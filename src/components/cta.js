@@ -7,7 +7,7 @@ export default function Cta() {
       <div className='container mx-auto'>
         <div className='flex flex-col items-center'>
           <h2 className='h2 max-w-xl text-center mb-8'>
-            Prepared to turn ideas into reality? I'm here to help
+            Prepared to turn ideas into reality? I&apos;m here to help
           </h2>
           <Link href='/contact'>
             <Button>Contact me</Button>
